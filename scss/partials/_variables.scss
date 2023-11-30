@@ -1,0 +1,23 @@
+
+$color-principal:rgb(141, 141, 141);
+
+$color-texto01:rgb(221, 56, 56); 
+
+$color-bg-text:rgba(79, 79, 79, 0.568);
+
+$font-family_01: 'Playfair Display', serif;
+
+$title-font:'Roboto', sans-serif;
+
+@mixin text-ligter ($size, $font, $weight){
+    font-size: $size;
+    font-family:$font;
+    font-weight: $weight;
+};
+
+@mixin flexmode ($dis, $direcion, $just, $align){
+    display: $dis;
+    flex-direction: $direcion;
+    justify-content: $just;
+    align-items: $align;
+};

@@ -1,0 +1,51 @@
+.section_01 {
+
+    @include flexmode (flex, row, center, center);
+    height: 80vh;
+
+    
+
+    .section_01_container {
+        @include flexmode (flex, row, space-between, center);
+      
+
+        .text_title_container {
+
+            @include flexmode (flex, column, center, center);
+        
+            margin: 40px;
+            max-width: 992px;
+            color: $color-texto01;
+
+            h3 {
+                font-family: $title-font;
+                font-size:calc(2em + 1vw) ;
+                font-weight: 600;
+            }
+
+            p {
+                font-size:calc(1em + 1vw) ;
+            }
+
+
+        }
+
+        .img_profile_container {
+            @include flexmode (flex, column, center, center);
+        
+            background: linear-gradient(white,rgb(190, 190, 248));
+            border-radius:15px;
+            max-width: 770px;
+            color: $color-texto01;
+
+
+            img {
+                height: 300px;
+                padding-top: 15px;
+                border-bottom-right-radius: 50px;
+
+            }
+
+        }
+    }
+}
