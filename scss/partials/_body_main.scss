@@ -3,5 +3,7 @@ body {
     background: linear-gradient( rgb(76, 76, 114) 70%, rgb(200, 200, 200));
     background-attachment: fixed;
 main {
+    @include flexmode(flex, column, center, center);
     text-align: center;
+    
 }}

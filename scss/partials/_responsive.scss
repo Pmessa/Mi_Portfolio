@@ -1,0 +1,34 @@
+@media screen and (max-width:992px) {
+
+    .section_01_container{
+        
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 340px;
+
+   
+    }
+    .section_02{
+        .icon_group_container{
+            padding:0 !important;
+            margin-top: 250px;
+        }
+    }
+    .herramientas_ul{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding:0 !important;
+    }
+}
+
+.proyectos_container{
+    color:$title-font;
+    color:$color-texto01;
+
+    iframe{
+    
+        width: 16rem !important;
+        height: 8rem !important;
+    }
+ 
+}
