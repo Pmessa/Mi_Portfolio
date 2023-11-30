@@ -1,0 +1,48 @@
+.section_03 {
+
+    @include flexmode (flex, column, space-between, center);
+
+    margin-bottom: 50px;
+
+    .section_herramientas_container_div {
+        @include flexmode (flex, column, center, center);
+        .titulo_seccion_herramientas{
+            h2{
+
+                font-family: $title-font;
+                font-size: 1.5em;
+                font-weight: 400;
+            }
+        }
+
+        .herramientas_ul {
+            @include flexmode (flex, row, center, center);
+            list-style: none;
+            max-width: 770px;            
+            flex-wrap: wrap;
+
+            li {
+                img {
+                    height: 60px;
+                    background-color: rgba(255, 255, 255, 0.5);
+                    border-radius: 15px;
+                    padding: 8px;
+                    margin: 8px;
+                }
+            }
+        }
+    }
+
+    .titulo_section_herramientas {
+        @include flexmode (flex, column, center, center);
+        font-family: $title-font;
+        font-weight: bold;
+        color: $color-texto01;
+        background: linear-gradient (90deg, $color-texto01, $color-bg-text, $color-principal);
+        margin-bottom: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+
+    }
+}

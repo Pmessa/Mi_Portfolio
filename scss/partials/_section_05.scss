@@ -1,0 +1,20 @@
+.contact_form {
+    @include flexmode(flex, column, center, center);
+
+    color: $color-texto01;
+
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: $title-font;
+
+
+    .form_container {
+        font-size: .8em;
+        font-weight: 400;
+        font-family: $title-font;
+        width: 80vw;
+        max-width: 770px;
+        margin-top: 4rem;
+
+    }
+}

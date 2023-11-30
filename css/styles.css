@@ -18,6 +18,9 @@
   border-bottom: solid 4px rgb(13, 80, 156) !important;
   width: 100vw;
 }
+.header .navbar a {
+  color: rgb(221, 56, 56);
+}
 
 .section_01 {
   display: flex;
@@ -63,6 +66,101 @@
   height: 300px;
   padding-top: 15px;
   border-bottom-right-radius: 50px;
+}
+
+.section_02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section_02 .icon_group_container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section_02 .icon_group_container li i {
+  font-size: 40px;
+  padding: 10px;
+  color: rgb(141, 141, 141);
+  background-color: rgba(79, 79, 79, 0.568);
+  border-radius: 15px;
+  border: solid 1px gray;
+  margin: 6px;
+}
+.section_02 .icon_group_container li i:hover {
+  transform: scale(1.05);
+}
+
+.section_03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section_03 .section_herramientas_container_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section_03 .section_herramientas_container_div .titulo_seccion_herramientas h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.section_03 .section_herramientas_container_div .herramientas_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  max-width: 770px;
+  flex-wrap: wrap;
+}
+.section_03 .section_herramientas_container_div .herramientas_ul li img {
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 8px;
+  margin: 8px;
+}
+.section_03 .titulo_section_herramientas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: rgb(221, 56, 56);
+  background: linear-gradient 90deg, rgb(221, 56, 56), rgba(79, 79, 79, 0.568), rgb(141, 141, 141);
+  margin-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.proyectos_container {
+  color: "Roboto", sans-serif;
+  color: rgb(221, 56, 56);
+}
+.proyectos_container iframe {
+  width: 35rem;
+  height: 20rem;
+}
+
+body {
+  background: linear-gradient(rgb(76, 76, 114) 70%, rgb(200, 200, 200));
+  background-attachment: fixed;
+}
+body main {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,33 @@
+.section_02 {
+    @include flexmode(flex, row, center, center);
+    margin-bottom: 50px;
+    
+    .icon_group_container {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 15px;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 50px;
+
+        li {
+            i {
+                font-size: 40px;
+                padding: 10px;
+                color: $color-principal;
+                background-color: $color-bg-text;
+                border-radius: 15px;
+                border: solid 1px gray;
+                margin: 6px;
+
+            }
+
+            i:hover {
+
+                transform: scale(1.05);
+            }
+        }
+    }
+}
