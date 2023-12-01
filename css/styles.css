@@ -14,12 +14,12 @@
   position: fixed;
 }
 .header .navbar {
-  background: rgb(141, 141, 141) !important;
-  border-bottom: solid 4px rgb(13, 80, 156) !important;
+  background: rgb(97, 111, 57) !important;
+  border-bottom: solid 4px rgb(167, 209, 41) !important;
   width: 100vw;
 }
 .header .navbar a {
-  color: rgb(221, 56, 56);
+  color: rgb(0, 0, 0);
 }
 
 .section_01 {
@@ -42,7 +42,7 @@
   align-items: center;
   margin: 40px;
   max-width: 992px;
-  color: rgb(221, 56, 56);
+  color: rgb(167, 209, 41);
 }
 .section_01 .section_01_container .text_title_container h3 {
   font-family: "Roboto", sans-serif;
@@ -57,10 +57,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(white, rgb(190, 190, 248));
+  background: linear-gradient(rgb(62, 67, 46), rgb(0, 0, 0));
   border-radius: 15px;
   max-width: 770px;
-  color: rgb(221, 56, 56);
+  color: rgb(97, 111, 57);
 }
 .section_01 .section_01_container .img_profile_container img {
   height: 300px;
@@ -88,10 +88,10 @@
 .section_02 .icon_group_container li i {
   font-size: 40px;
   padding: 10px;
-  color: rgb(141, 141, 141);
-  background-color: rgba(79, 79, 79, 0.568);
+  color: rgb(97, 111, 57);
+  background-color: rgb(0, 0, 0);
   border-radius: 15px;
-  border: solid 1px gray;
+  border: solid 1px rgb(62, 67, 46);
   margin: 6px;
 }
 .section_02 .icon_group_container li i:hover {
@@ -139,8 +139,8 @@
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: rgb(221, 56, 56);
-  background: linear-gradient 90deg, rgb(221, 56, 56), rgba(79, 79, 79, 0.568), rgb(141, 141, 141);
+  color: rgb(167, 209, 41);
+  background: linear-gradient 90deg, rgb(97, 111, 57), rgb(62, 67, 46), rgb(0, 0, 0);
   margin-bottom: 50px;
   padding-left: 40px;
   padding-right: 40px;
@@ -148,7 +148,7 @@
 
 .proyectos_container {
   color: "Roboto", sans-serif;
-  color: rgb(221, 56, 56);
+  color: rgb(167, 209, 41);
 }
 .proyectos_container iframe {
   width: 35rem;
@@ -160,7 +160,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(221, 56, 56);
+  color: rgb(167, 209, 41);
   font-size: 1.5em;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
@@ -176,7 +176,7 @@
 }
 
 body {
-  background: linear-gradient(rgb(76, 76, 114) 70%, rgb(200, 200, 200));
+  background: linear-gradient(rgb(0, 0, 0) 70%, rgb(62, 67, 46));
   background-attachment: fixed;
 }
 body main {

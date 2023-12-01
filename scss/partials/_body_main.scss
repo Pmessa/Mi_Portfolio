@@ -1,6 +1,6 @@
 body {
 
-    background: linear-gradient( rgb(76, 76, 114) 70%, rgb(200, 200, 200));
+    background: linear-gradient( $color_3 70%, $color_2);
     background-attachment: fixed;
 main {
     @include flexmode(flex, column, center, center);

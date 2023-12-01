@@ -15,7 +15,7 @@
         
             margin: 40px;
             max-width: 992px;
-            color: $color-texto01;
+            color: $color_0;
 
             h3 {
                 font-family: $title-font;
@@ -33,10 +33,10 @@
         .img_profile_container {
             @include flexmode (flex, column, center, center);
         
-            background: linear-gradient(white,rgb(190, 190, 248));
+            background: linear-gradient($color_2, $color_3);
             border-radius:15px;
             max-width: 770px;
-            color: $color-texto01;
+            color: $color_1;
 
 
             img {
