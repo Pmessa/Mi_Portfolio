@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,8 @@
 }
 .header .navbar a {
   color: rgb(0, 0, 0);
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
 }
 
 .section_01 {
@@ -43,14 +46,23 @@
   margin: 40px;
   max-width: 992px;
   color: rgb(167, 209, 41);
+  font-family: "Oswald", sans-serif;
 }
 .section_01 .section_01_container .text_title_container h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: calc(2em + 1vw);
-  font-weight: 600;
+  font-size: calc(1em + 1vw);
+  font-weight: 300;
+}
+.section_01 .section_01_container .text_title_container h3::after {
+  content: "  {._.}";
+  color: orange;
+}
+.section_01 .section_01_container .text_title_container h3::before {
+  content: "{._.}  ";
+  color: orange;
 }
 .section_01 .section_01_container .text_title_container p {
   font-size: calc(1em + 1vw);
+  font-weight: 100;
 }
 .section_01 .section_01_container .img_profile_container {
   display: flex;
@@ -112,7 +124,7 @@
   align-items: center;
 }
 .section_03 .section_herramientas_container_div .titulo_seccion_herramientas h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.5em;
   font-weight: 400;
 }
@@ -137,7 +149,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: bold;
   color: rgb(167, 209, 41);
   background: linear-gradient 90deg, rgb(97, 111, 57), rgb(62, 67, 46), rgb(0, 0, 0);
@@ -147,7 +159,7 @@
 }
 
 .proyectos_container {
-  color: "Roboto", sans-serif;
+  color: "Oswald", sans-serif;
   color: rgb(167, 209, 41);
 }
 .proyectos_container iframe {
@@ -163,14 +175,14 @@
   color: rgb(167, 209, 41);
   font-size: 1.5em;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .section_5 .form_container {
   align-items: center;
   justify-content: center;
   font-size: 0.8em;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
   margin-top: 4rem;
   width: 80vw;
 }
@@ -185,6 +197,31 @@ body main {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+@media (max-width: 772px) {
+  .section_01_container {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 340px;
+  }
+  .section_02 .icon_group_container {
+    padding: 0 !important;
+    margin-top: 250px;
+  }
+  .herramientas_ul {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0 !important;
+  }
+}
+.proyectos_container {
+  color: rgb(97, 111, 57);
+  color: rgb(0, 0, 0);
+}
+.proyectos_container iframe {
+  width: 16rem !important;
+  height: 8rem !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

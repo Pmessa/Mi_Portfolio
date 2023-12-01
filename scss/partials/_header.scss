@@ -4,9 +4,13 @@
         background: $color_1 !important;
         border-bottom: solid 4px $color_0 !important;
         width: 100vw;
+ 
 
         a{
             color:$color_3;
+            font-family: $title-font;
+            font-weight: 900;
+
         }
     }
 }

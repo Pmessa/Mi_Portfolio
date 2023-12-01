@@ -16,15 +16,29 @@
             margin: 40px;
             max-width: 992px;
             color: $color_0;
+            font-family: $title-font;
+
 
             h3 {
-                font-family: $title-font;
-                font-size:calc(2em + 1vw) ;
-                font-weight: 600;
+               
+                font-size:calc(1em + 1vw) ;
+                font-weight:300;
             }
+            h3::after{
+                content:"  {._.}";
+                color: orange;
+                
+            } 
+            h3::before{
+                content:"{._.}  ";
+                color: orange;
+                
+            } 
+            
 
             p {
                 font-size:calc(1em + 1vw) ;
+                font-weight:100;
             }
 
 

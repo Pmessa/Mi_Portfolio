@@ -7,17 +7,10 @@ $color_2:rgb(62, 67, 46);
 
 $color_3:rgb(0, 0, 0);           
 
+$title-font:'Oswald', sans-serif;
 
 
 
-
-
-
-
-
-$font-family_01: 'Playfair Display', serif;
-
-$title-font:'Roboto', sans-serif;
 
 @mixin text-ligter ($size, $font, $weight){
     font-size: $size;
