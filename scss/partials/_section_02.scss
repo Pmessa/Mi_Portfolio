@@ -9,24 +9,25 @@
         justify-content: center;
         border-radius: 15px;
         flex-wrap: wrap;
-        text-align: center;
         margin-bottom: 50px;
+        
 
         li {
             i {
                 font-size: 40px;
                 padding: 10px;
-                color: $color_1;
+                color: $color_0;
                 background-color: $color_3;
                 border-radius: 15px;
-                border: solid 1px $color_2;
+                border: solid 1px $color_0;
                 margin: 6px;
 
             }
 
             i:hover {
 
-                transform: scale(1.05);
+                color:$color_4;
+                border: solid 1px $color_4;
             }
         }
     }

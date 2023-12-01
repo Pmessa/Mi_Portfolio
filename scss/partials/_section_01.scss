@@ -22,22 +22,30 @@
             h3 {
                
                 font-size:calc(1em + 1vw) ;
-                font-weight:300;
+                font-weight:500;
+
+                span{
+                    font-weight: 500;
+                    color:orange;
+           
+                    
+                 
+                }
             }
-            h3::after{
-                content:"  {._.}";
-                color: orange;
+            // h3::after{
+            //     content:"  <=";
+            //     color: orange;
                 
-            } 
-            h3::before{
-                content:"{._.}  ";
-                color: orange;
+            // } 
+            // h3::before{
+            //     content:"=>  ";
+            //     color: orange;
                 
-            } 
+            // } 
             
 
             p {
-                font-size:calc(1em + 1vw) ;
+                font-size:calc(.8em + 1vw) ;
                 font-weight:100;
             }
 

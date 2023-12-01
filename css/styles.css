@@ -50,18 +50,14 @@
 }
 .section_01 .section_01_container .text_title_container h3 {
   font-size: calc(1em + 1vw);
-  font-weight: 300;
+  font-weight: 500;
 }
-.section_01 .section_01_container .text_title_container h3::after {
-  content: "  {._.}";
-  color: orange;
-}
-.section_01 .section_01_container .text_title_container h3::before {
-  content: "{._.}  ";
+.section_01 .section_01_container .text_title_container h3 span {
+  font-weight: 500;
   color: orange;
 }
 .section_01 .section_01_container .text_title_container p {
-  font-size: calc(1em + 1vw);
+  font-size: calc(0.8em + 1vw);
   font-weight: 100;
 }
 .section_01 .section_01_container .img_profile_container {
@@ -94,20 +90,20 @@
   justify-content: center;
   border-radius: 15px;
   flex-wrap: wrap;
-  text-align: center;
   margin-bottom: 50px;
 }
 .section_02 .icon_group_container li i {
   font-size: 40px;
   padding: 10px;
-  color: rgb(97, 111, 57);
+  color: rgb(167, 209, 41);
   background-color: rgb(0, 0, 0);
   border-radius: 15px;
-  border: solid 1px rgb(62, 67, 46);
+  border: solid 1px rgb(167, 209, 41);
   margin: 6px;
 }
 .section_02 .icon_group_container li i:hover {
-  transform: scale(1.05);
+  color: rgb(255, 165, 0);
+  border: solid 1px rgb(255, 165, 0);
 }
 
 .section_03 {
