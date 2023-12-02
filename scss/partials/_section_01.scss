@@ -3,50 +3,24 @@
     @include flexmode (flex, row, center, center);
     height: 80vh;
 
-    
+
 
     .section_01_container {
         @include flexmode (flex, row, space-between, center);
-      
+
 
         .text_title_container {
 
             @include flexmode (flex, column, center, center);
-        
+
             margin: 40px;
             max-width: 992px;
             color: $color_0;
             font-family: $title-font;
 
-
-            h3 {
-               
-                font-size:calc(1em + 1vw) ;
-                font-weight:500;
-
-                span{
-                    font-weight: 500;
-                    color:orange;
-           
-                    
-                 
-                }
-            }
-            // h3::after{
-            //     content:"  <=";
-            //     color: orange;
-                
-            // } 
-            // h3::before{
-            //     content:"=>  ";
-            //     color: orange;
-                
-            // } 
-            
-
             p {
-                font-size:calc(.8em + 1vw) ;
-                font-weight:100;
+                font-size: calc(.8em + 1vw);
+                font-weight: 100;
             }
 
 
@@ -54,9 +28,9 @@
 
         .img_profile_container {
             @include flexmode (flex, column, center, center);
-        
+
             background: linear-gradient($color_2, $color_3);
-            border-radius:15px;
+            border-radius: 15px;
             max-width: 770px;
             color: $color_1;
 

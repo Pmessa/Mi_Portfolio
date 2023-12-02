@@ -1,30 +1,32 @@
+$color_0: rgb(183, 213, 229);
 
-$color_0:rgb(167, 209, 41);
+$color_1: rgb(90, 132, 154);
 
-$color_1:rgb(97, 111, 57); 
+$color_2: rgb(40, 48, 108);
 
-$color_2:rgb(62, 67, 46);
+$color_3: rgb(9, 43, 62);
 
-$color_3:rgb(0, 0, 0);    
-
-$color_4:rgb(255, 165, 0);
-
-$title-font:'Oswald', sans-serif;
+$color_4: rgb(1, 10, 15);
 
 
+$title-font: 'Oswald', sans-serif;
 
 
-@mixin text-ligter ($size, $font, $weight){
+
+
+@mixin text-ligter ($size, $font, $weight) {
     font-size: $size;
-    font-family:$font;
+    font-family: $font;
     font-weight: $weight;
-};
+}
 
-@mixin flexmode ($dis, $direcion, $just, $align){
+;
+
+@mixin flexmode ($dis, $direcion, $just, $align) {
     display: $dis;
     flex-direction: $direcion;
     justify-content: $just;
     align-items: $align;
-};
+}
 
-
+;
