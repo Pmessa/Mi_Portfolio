@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PM =>Web</title>
-  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -53,10 +53,12 @@
           alt="mi_foto_de_perfil">
       </div>
       <div class="text_title_container">
-        <h3 class="animate__animated animate__fadeInDown">
-          Hola!
+        <h3 class="animate__animated animate__fadeInDown" id="hola">
+          Hola!<span aria-hidden="true" class="wave">👋</span> 
         </h3>
-        <p class="animate__animated animate__fadeInUp">“Yo soy <strong Class="animate__animated animate__fadeInTopRight">Pablo</strong>, un entusiasta del desarrollo web👨‍💻, con experiencia en diversas tecnologías y siempre al día con las
+        <p class="animate__animated animate__fadeInUp">“Yo soy <strong
+            Class="animate__animated animate__fadeInTopRight">Pablo</strong>, un entusiasta del desarrollo web 👨‍💻,
+          con experiencia en diversas tecnologías y siempre al día con las
           últimas tendencias. Mi objetivo es crear páginas web profesionales, atractivas y funcionales, que cumplan
           con las expectativas de los clientes y los usuarios.”</p>
       </div>
@@ -104,6 +106,7 @@
             src="https://firebasestorage.googleapis.com/v0/b/mi-portfolio-527df.appspot.com/o/GitHub.png?alt=media&token=6d96173f-8609-4af7-adab-d7d8ca09feb4"
             alt="GitHub-logo"></li>
       </ul>
+
     </div>
   </section>
   <section class="section_04">
@@ -136,11 +139,12 @@
         <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
       </div>
       <div>
-        <button class="btn btn-primary" type="submit">Button</button>
+        <button class="btn btn-primary" type="submit" id="enviar">Button</button>
       </div>
     </div>
   </section>
 </main>
+<script src="main.js"></script>
 <script src="https://kit.fontawesome.com/1a6b789c55.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
